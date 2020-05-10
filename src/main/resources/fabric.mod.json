@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "testmod",
+  "version": "${version}",
+  "name": "testmod",
+  "description": "This is only a test",
+  "authors": [
+    "Test"
+  ],
+  "contributors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/testmod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "mod.test.Test"
+    ],
+    "client": [],
+    "server": []
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.4.0",
+    "fabric": "*"
+  }
+}
